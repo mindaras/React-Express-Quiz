@@ -86,3 +86,12 @@
     margin-bottom: 10px;
   }
 }
+
+@media screen and (max-width: 767px)
+{
+  .finish .button
+  {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

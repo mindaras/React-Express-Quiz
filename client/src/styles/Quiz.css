@@ -64,7 +64,7 @@
 
 .quiz-options__item:active
 {
-  background-color: red;
+  background-color: #000;
   color: #fff;
 }
 

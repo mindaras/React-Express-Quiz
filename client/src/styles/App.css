@@ -16,10 +16,19 @@
   transition: ease .3s;
   cursor: pointer;
 }
-.button:hover
+.button:active
 {
   background-color: #000;
   color: #fff;
+}
+
+@media screen and (min-width: 992px)
+{
+  .button:hover
+  {
+    background-color: #000;
+    color: #fff;
+  }
 }
 
 @media screen and (max-width: 767px)
