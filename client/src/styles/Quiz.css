@@ -61,10 +61,19 @@
 {
   margin-right: 25px;
 }
-.quiz-options__item:hover
+
+.quiz-options__item:active
 {
-  background-color: #000;
+  background-color: red;
   color: #fff;
+}
+
+@media screen and (min-width: 992px) {
+  .quiz-options__item:hover
+  {
+    background-color: #000;
+    color: #fff;
+  }
 }
 
 @media screen and (max-width: 991px)
