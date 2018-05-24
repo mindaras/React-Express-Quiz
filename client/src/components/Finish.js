@@ -16,7 +16,7 @@ class Finish extends Component {
     if (questionList) {
       return (
         <div>
-          <h4 className="finish__questions-title">Questions you've made mistakes in:</h4>
+          <h4 className="finish__questions-title">Questions you have made mistakes in:</h4>
           <ul className="finish-questions">
             {questionList}
           </ul>
